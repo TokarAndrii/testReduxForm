@@ -15,7 +15,10 @@ function App() {
         <p>Redux-form</p>
       </header>
       <main>
-        <Form></Form>
+        <div className="container">
+          <h2>Form registrations</h2>
+          <Form></Form>
+        </div>
       </main>
     </div>
   );

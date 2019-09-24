@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    width: 100%;
+    padding: 4px 0;
+}
+
+.label {
+    width: 100px;
+    text-align: left;
+    margin-right: 12px;
+}
+
+.select {
+    display: inline-block;
+    padding: 8px 32px;
+    width: 520px;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid black;
+    margin-left: 18px;
+}
+
+.inputHolder {
+    position: relative;
+    width: 80%;
+}

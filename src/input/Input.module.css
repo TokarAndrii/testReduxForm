@@ -1,0 +1,38 @@
+.inputHolder {
+    position: relative;
+    width: 80%;
+}
+
+.input {
+    padding: 8px 32px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid black;
+}
+
+.input:focus {
+    box-shadow: 0 0 3pt 2pt grey;
+    outline: 1px solid transparent;
+}
+
+.warning,
+.error {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0px 32px;
+}
+
+.error {
+    background-color: red;
+    color: #fff;
+
+}
+
+.warning {
+    background-color: red;
+    color: #fff;
+}
